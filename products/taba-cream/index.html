@@ -156,14 +156,14 @@
         
         
         <div class="my-4">
-          <span class="lead text-primary font-weight-medium">20.00$</span>
-          <s></s>
+          <span class="lead text-primary font-weight-medium">Rp. 280.000</span>
+          
         </div>
         <h5>Short Description</h5>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
         <button class="snipcart-add-item btn btn-primary" data-item-id="3"
           data-item-name="Taba Cream"  data-item-image="https://tokofuad.github.io/images/products/product-1.png"
-           data-item-price="20.00$" data-item-url="https://tokofuad.github.io/products/taba-cream/">
+           data-item-price="280000" data-item-url="https://tokofuad.github.io/products/taba-cream/">
           Add to cart
         </button>
       </div>
@@ -304,6 +304,7 @@
   Snipcart.execute('registerLocale', 'en', {
     powered_by: "Toko Fuad"
   });
+  Snipcart.api.cart.currency('idr');
 </script>
 
 <!-- Main Script -->
